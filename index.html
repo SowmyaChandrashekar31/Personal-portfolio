@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sowmya Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(4, 4, 45);
+    color: white;
+    font-family: "Poppins", serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(19, 9, 96);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    font-size: 1.2rem;
+    color: rgb(88, 88, 177);
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.5px;
+    margin: 60px 84px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0;
+    align-items: center;
+}
+
+.firstSection>div {
+    width: 30%
+}
+
+.leftSection {
+    font-size: 2rem;
+    margin: 50px 0;
+}
+.leftSection .buttons{
+    padding: 43px,0;
+}
+.leftSection .btn{
+    background-color: rgb(2, 2, 40);
+    font-size: 14px;
+    color:rgb(131, 73, 73);
+    border: 2px salid white;
+    border-radius: 6px;
+    cursor: pointer;
+    padding:10px
+}
+
+.rightSection img {
+    width: 30%;
+    margin-right: 50px 0;
+    padding-right: 10px;
+
+}
+.about {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.about h1{
+    font-size: 2rem;
+    color:rgb(240, 238, 251)
+}
+
+.about1 {
+    font-size: 2rem;
+    margin: 30px 0;
+    width=30%;
+}
+.red {
+    color: rgb(221, 71, 37);
+}
+.yellow {
+    color: rgb(231, 144, 13);
+}
+
+.blue {
+    color: rgb(22, 201, 189);
+}
+.purple {
+    color: blueviolet;
+}
+.text-gray{
+    color:gray;
+}
+
+#element {
+    color: blueviolet;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 70vh;
+}
+.secondSection h1{
+    font-size: 1.9rem;
+    color:rgb(240, 238, 251)
+}
+.secondSection .box{
+    background:white;
+    width:80vw;
+    height:3px;
+    margin:56px 0;
+    display:flex;
+}
+.secondSection .vertical{
+    height:40px;
+    width:3px;
+    background-color: white;
+    margin:0 160px;
+}
+.image-top{
+    width:50px;
+    postion:relative;
+    top:-32px;
+    left:-9x;
+}
+.vertical-title{
+    postion:relative;
+    top:75px;
+    width: 150px;
+    color:rgb(213, 125, 19);
+    font-size:16px;
+
+}
+.vertical-desc{
+    position:relative;
+    top:0px;
+    color:rgb(220, 227, 7);
+    font-size: 14px;
+    width:150px;
+
+}
+
+.skills {
+    max-width: 80vw;
+    margin: auto;
+    height: 70vh;
+}
+.skills h1{
+    font-size: 1.9rem;
+    color:rgb(7, 180, 42)
+}
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+.skills li {
+    background: #104884;
+    color: rgb(209, 220, 11);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.skills h3{
+    font-size: 1.5rem;
+    width=20%;
+    color:rgb(41, 198, 198);
+}
+footer{
+    background-color: #0e0e1a;
+    height:233px;
+}
+.footer{
+    display:flex;
+    padding:23px 123px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer>div{
+   width:223px;
+}
+footer .footer-rights{
+    text-align: center;
+    color:grey;
+    padding:12px 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Sowmya Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#first">Home</a></li>
+                    <li><a href="#aboutid">About</a></li>
+                    <li><a href="#eid">Education</a></li>
+                    <li><a href="#skillsid">Skills</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection" id ="first">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Sowmya</span>
+                <div> I am passionate about the </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a href="C:\Users\LAXMI\Downloads\sowmya_resume.pdf"><span class="yellow">Download Resume</span></a></button>
+                    <button class="btn"><a href="https://GitHub.com/SowmyaChandrashekar31"><span class="yellow">Visit GitHub</span></a></button>
+                    <button class="btn"><a href="https://www.linkedin.com/in/sowmya-d-c-024618345"><span class="yellow">Visit Linkedin</span></a></button>
+                    <button class="btn"><a href="https://leetcode.com/problemset"><span class="yellow">Visit LeetCode</span></a></button>
+                </div>
+            </div>
+            <div class="righSection">
+                <img src="C:\Users\LAXMI\Documents\portfolio\images\p6.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section  class="about" id="aboutid">
+            <h1> About</h1>
+             <div class="about1">
+            <div >Hi ,My name is <span class="red">Sowmya DC.</span>
+            </br>
+            <div> I am currently pursuing my Matser of Computer Applications (MCA)</br>
+             at Bangalore University. I have a deep interest in <span class="blue">problem-solving, </br>
+             Coding, front-end development, Debugging,</span> constantly improve my skills </br>
+             stay updated with the latest industry trends.</br>
+             I enjoy working with various programming languages and frameworks,</br>
+             exploring algorithms,and optimizing code for efficiency. My problem-</br>
+             solving mindset allows me to approach challenges analytically,making</br>
+             debugging and troubleshooting and exciting part of my learning journey.</br>
+             I'm always to learn,experiment,and grow in the field of software Development.
+            </div>
+
+            </div>
+            </div>
+ 
+
+        </section>
+        <hr>
+
+        <section class="secondSection" id="eid">
+            <span class="text-gray">what I have done so far</span>
+            <h1> Education</h1></br>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="C:\Users\LAXMI\Documents\portfolio\images\bu.png" alt="">
+                    <br><br>
+                    <div class="vertical-title">
+                        Master of Computer Application (M.C.A)
+                    </div>
+                    <div class="vertical-desc">
+                        Bangalore University
+                        jnanabarathi
+                        Bangalore 
+                        (2024-2025).
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="C:\Users\LAXMI\Documents\portfolio\images\vi.png" alt="">
+                    <br><br>
+
+                    <div class="vertical-title">
+                         Bachelor of Science (B.Sc)
+                    </div>
+                    <div class="vertical-desc">
+                         Vijaya College,R V Road
+                        Bangalore 
+                        with(92.33%)
+                        (2020-2023)
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="C:\Users\LAXMI\Documents\portfolio\images\blo.png" alt="">
+                    <br><br>
+                    <div class="vertical-title">
+                        PUC
+                    </div>
+                    <div class="vertical-desc">
+                        Blooms PU College, Chikkaballapur
+                         with (85.86%)
+                         (2018-2020).
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="C:\Users\LAXMI\Documents\portfolio\images\ra.png" alt="">
+                    <br><br>
+                    <div class="vertical-title">
+                        SSLC
+                    </div>
+                    <div class="vertical-desc">
+                        Ramakrishna Vidya Vardhaka high school,
+                        Chinthamani  with (80.96%)
+                        (2008-2018).
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <hr>
+        <section class="skills" id="skillsid">
+            <h1>Skills</h1></br>
+            <ul>
+                <h3>Operating System : <li>Windows</li>
+                <li>Unix</li></h3></br>
+                <h3>Databases : <li>SQL</li><li>Oracle</li></h3></br>
+                <h3>languages :  <li>C</li> <li>C++</li><li>Java</li><li>Python</li><li>Visual Basic</li></h3></br>
+                <h3>Web Technologies : <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Bootstrap</li></h3>
+            
+            </ul>
+        </section>
+    </main>
+    <footer>
+    <div class="footer">
+        <div class="footer-first">
+            <h3>Sowmya Portfolio</h3>
+        </div>
+        <div class="footer-second">
+           <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Education</li>
+            <li>Skills</li>
+            <li>Contact</li>
+           </ul>
+        </div>
+        <div class="footer-third">
+
+        </div>
+        <div class="footer-fourth">
+
+        </div>
+    </div>
+    <div class="footer-rights">
+        copyright &#169; sowmyaportfolio.com | All rigths reserved
+    </div>
+</footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: [ 'Debugger.','Web Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+    <body>
+
+    </body>
+
+</html>
